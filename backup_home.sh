@@ -1,7 +1,7 @@
 #!/bin/bash
 
-USER="<user name>"
-DESTINATION=<path/to/destination/>
+USER="<user_name>"
+DESTINATION="<path/to/destination/>"
 
 
 rsync -avc --no-perms \
