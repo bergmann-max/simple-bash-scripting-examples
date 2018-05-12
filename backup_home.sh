@@ -3,17 +3,15 @@
 USER="<user name>"
 DESTINATION=<path/to/destination/>
 
-rsync \
---archive \
---quiet \
---delete \
---executability \
---no-links \
---include 'Documents' \
---include 'Music' \
---include 'Pictures' \
---include 'Templates' \
---include 'Videos' \
---include '.ssh' \
---exclude '*'
-/home/$USER/ $DESTINATION
+
+rsync -avc --no-perms \
+/home/$USER/Documents/ \
+/home/$USER/Downloads/ \
+/home/$USER/Pictures/ \
+/home/$USER/Videos/ \
+/home/$USER/Music/ \
+/home/$USER/KeePass/ \
+/home/$USER/.ssh/ \
+--exclude '*.img' \
+--exclude '*.iso' \
+$DESTINATION
