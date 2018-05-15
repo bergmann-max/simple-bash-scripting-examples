@@ -1,0 +1,23 @@
+[Unit]
+Description=Backup of ~/
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/rsync                \
+        --archive                       \
+        --executability                 \
+        --no-links                      \
+        --checksum                      \
+        /home/< user >/Documents              \
+        /home/< user >/Downloads              \
+        /home/< user >/Music                  \
+        /home/< user >/Pictures               \
+        /home/< user >/Templates              \
+        /home/< user >/Videos                 \
+        /home/< user >/projects               \
+        /home/< user >/.ssh                   \
+        /home/< user >/VirtualBoxVMs          \
+        < destination >
+
+[Install]
+WantedBy=default.target

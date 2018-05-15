@@ -1,0 +1,14 @@
+[Unit]
+Description=Backup of ~/
+
+[Timer]
+Persistent=true
+#Every 2 houres (e.g. 10:00; 12:00; 14:00; 16:00; ...)
+OnCalendar=00/2:00
+
+#At 16:00 or once in 24h
+#OnCalendar=16:00
+#OnUnitActiveSec=24h
+
+[Install]
+WantedBy=timers.target
