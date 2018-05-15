@@ -17,7 +17,7 @@ ExecStart=/usr/bin/rsync                \
         /home/< user >/projects               \
         /home/< user >/.ssh                   \
         /home/< user >/VirtualBoxVMs          \
-        < destination >
+        /< destination >
 
 [Install]
 WantedBy=default.target
