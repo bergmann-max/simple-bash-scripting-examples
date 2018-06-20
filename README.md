@@ -1,1 +1,1 @@
-#My Notebook about bash-scripting
+# My notebook about bash-scripting
