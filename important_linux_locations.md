@@ -2,7 +2,7 @@
 * /dev/hda # Device file for the first IDE HDD (Hard Disk Drive)
 * /dev/hdc # Device file for the IDE Cdrom, commonly
 * /dev/null # A pseudo device, that don’t exist. Sometime garbage output is redirected to /dev/null, so that it gets lost, forever.
-/etc/bashrc # Contains system defaults and aliases used by bash shell.
+* /etc/bashrc # Contains system defaults and aliases used by bash shell.
 * /etc/crontab # A shell script to run specified commands on a predefined time Interval.
 * /etc/exports # Information of the file system available on network.
 * /etc/fstab # Information of Disk Drive and their mount point.
