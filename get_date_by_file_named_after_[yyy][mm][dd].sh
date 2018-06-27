@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#get date by a mp4 file named after [yyy][mm][dd] %Y%m.mp4
+#get date by a mp4 file named after [yyy][mm] %Y%m.mp4
 
 
 DIRECTORY="/path/to/dir"
