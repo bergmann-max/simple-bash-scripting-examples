@@ -5,7 +5,7 @@ DIRECTORY="/path/to/directory"
 
 THISMONTH="$(date +%Y%m)01"
 
-for FILE in ${DIRECTORY}/*
+for FILE in "${DIRECTORY}"/*
     do
 
         DIRECTORY_NAME_WITHOUT_PATH=$( basename "${FILE}" )
