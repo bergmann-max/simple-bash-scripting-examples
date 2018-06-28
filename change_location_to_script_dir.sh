@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Change to the directory of this script
+#Change to the script dir
 
 BASEDIR=$(dirname "$0")
-cd ${BASEDIR}
+cd "${BASEDIR}" || exit
