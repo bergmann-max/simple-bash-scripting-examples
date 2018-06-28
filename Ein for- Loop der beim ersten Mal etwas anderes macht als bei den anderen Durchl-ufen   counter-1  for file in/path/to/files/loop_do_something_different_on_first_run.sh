@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#This loop do something diferent on te first run
+#This loop do something different on the first run
 
  counter=1
 
