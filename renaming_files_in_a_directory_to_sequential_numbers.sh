@@ -1,5 +1,5 @@
 #!/bin/bash
-#Renaming JPEG in a folder to sequential numbers
+#Renaming JPEG in a directory to sequential numbers
 
 DIRECTORY="/path/to/dir/"
 lenght="5" #Length of the new file name (e.g. 5 starts with 00001)
