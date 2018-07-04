@@ -48,5 +48,5 @@ function echo_if {
 
 # command line programs
 echo "wget    $(echo_if $(program_is_installed wget))"
-echo "pwd    $(echo_if $(program_is_installed pwd)"
+echo "pwd    $(echo_if $(program_is_installed pwd))"
 echo "xTest $(echo_if $(program_is_installed xTest))"
