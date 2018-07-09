@@ -11,7 +11,7 @@ PROCESS="example_script.sh"
 RESULT=$(pgrep --ignore-case "$PROCESS" | grep --count --invert-match "grep" )
 if [ "$RESULT" -eq 0 ] ; then
 
-        echo "${PROCESS} is not  running"
+        echo "${PROCESS} is not running"
 
 else
 
