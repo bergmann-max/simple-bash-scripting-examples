@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # This script checks if the example_script.sh script is running.
 
@@ -16,5 +16,5 @@ if [ "$RESULT" -eq 0 ] ; then
 else
 
         echo "${PROCESS} is running"
-        
+
 fi

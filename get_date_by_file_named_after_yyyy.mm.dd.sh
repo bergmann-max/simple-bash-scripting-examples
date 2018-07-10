@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #get date by a mp4 file named after [yyyy][mm] %Y%m.mp4
 

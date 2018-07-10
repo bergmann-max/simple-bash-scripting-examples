@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 read -n1 -p -r "Do that? [y,n] " doit
 case $doit in

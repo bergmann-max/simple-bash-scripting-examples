@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #MP4 and JPEG files older than 10 days in a directory get deleted
 

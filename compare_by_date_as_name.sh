@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #compare directories, named by date ([yyyy][mm][dd]), with the 1. of this month, then do something
 
 DIRECTORY="/path/to/directory"

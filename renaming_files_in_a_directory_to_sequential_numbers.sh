@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #Renaming JPEG in a directory to sequential numbers
 
 DIRECTORY="/path/to/dir/"
@@ -10,5 +10,5 @@ do
 	new=$(printf "${DIRECTORY}%0${lenght}d.jpg" "$counter")
         mv "$pictures" "$new"
         counter=$((counter + 1))
-        
+
 done
