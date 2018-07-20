@@ -2,10 +2,6 @@
 
 # This script checks if the example_script.sh script is running.
 
-# Change the directory of this script
-BASEDIR=$(dirname "$0")
-cd "${BASEDIR}" || exit
-
 PROCESS="example_script.sh"
 
 RESULT=$(pgrep --ignore-case "$PROCESS" | grep --count --invert-match "grep" )
