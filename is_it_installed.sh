@@ -2,7 +2,7 @@
 
 # Is something installed?
 
-echo -e "\n Check if needed packages are installed:\n"
+echo -e "\\n Check if needed packages are installed:\n"
 
 # return 1 if global command line program installed, else 0
 # example
@@ -21,9 +21,9 @@ function program_is_installed {
 # echo echo_fail "No"
 function echo_fail {
   # echo first argument in red
-  printf "\e[31m✘ ${1} This package isn't installed"
+  printf "\\e[31m✘ ${1} This package isn't installed"
   # reset colours back to normal
-  echo -e "\033[0m"
+  printf "\\033[0m"
 }
 
 # display a message in green with a tick by it
@@ -31,9 +31,9 @@ function echo_fail {
 # echo echo_fail "Yes"
 function echo_pass {
   # echo first argument in green
-  printf "\e[32m✔ ${1}"
+  printf "\\e[32m✔ ${1}"
   # reset colours back to normal
-  echo -e "\033[0m"
+  printf "\\033[0m"
 }
 
 # echo pass or fail
