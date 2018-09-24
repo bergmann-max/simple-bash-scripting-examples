@@ -11,7 +11,6 @@ rsync -avc --no-perms \
 /home/$USER/Videos/ \
 /home/$USER/Music/ \
 /home/$USER/KeePass/ \
-/home/$USER/.ssh/ \
 --exclude '*.img' \
 --exclude '*.iso' \
 $DESTINATION
