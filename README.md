@@ -1,3 +1,2 @@
 # My bash-scripting notebook
-
-The examples are proved by shellcheck
+easy basic bash scripting examples
