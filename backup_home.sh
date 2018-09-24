@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-USER="<user_name>"
 DESTINATION="<path/to/destination/>"
 
 
