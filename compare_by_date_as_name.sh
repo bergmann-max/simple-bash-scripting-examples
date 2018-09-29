@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#compare directories, named by date ([yyyy][mm][dd]), with the 1. of this month, then do something
+#compare directories, named by date ([yyyy][mm][dd]), do something with directories from last month or older
 
 DIRECTORY="/path/to/directory"
 
