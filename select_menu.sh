@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-PS3='What do you whant to eat?: '
+PS3='What do you want to eat?: '
 OPTIONS=("Pizza" "Hamburger" "Ice Cream" "Quit")
 select OPT in "${OPTIONS[@]}"
 do
