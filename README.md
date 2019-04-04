@@ -1,2 +1,2 @@
 # Simple bash scripting examples
-My bash-scripting notebook
+Just my personal bash scripting notebook
